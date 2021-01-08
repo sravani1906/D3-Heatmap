@@ -1,0 +1,36 @@
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;   
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #aaa;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+.tooltip {
+position: absolute;
+text-align: center;
+padding: 0.5rem;
+background: #ffffff;
+color: #313639;
+border: 1px solid #313639;
+border-radius: 8px;
+pointer-events: none;
+font-size: 1.3rem;
+}
+
+
+.selectbox {
+  padding-top: 50px;
+  padding-left: 300px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>CSE 578 - Fall 2020 - Homework#</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style src="style.css"></style>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container" id="wrapper">
+      <div class="selectbox">
+        <label>Select ColorScale</label>
+      <select id="color-scale-select" onchange="heatmap()">
+        <option value="interpolateOranges">interpolateOranges</option>
+        <option value="interpolateReds">interpolateReds</option>
+        <option value="interpolateBlues">interpolateBlues</option>
+        <option value="interpolateOrRd">interpolateOrRd</option>
+        <option value="interpolatePuBuGn">interpolatePuBuGn</option>
+      </select>
+    </div>
+    <div id="my_dataviz"></div>
+    <hr style="width: 100%" />
+    </div>
+  </body>
+</html>
