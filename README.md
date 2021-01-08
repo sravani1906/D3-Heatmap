@@ -1,4 +1,8 @@
 
+# Repository Description
+
+This repository has been created to serve as an assignment for the course CSE 578 - Data Visualization at ASU
+
 # D3 Heatmap and Interactivity
 
 The purpose of this homework is to create heatmap visualization in D3 by consuming realtime weather data and add some interactions. By the end of this assignment you should learn how to:
